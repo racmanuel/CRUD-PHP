@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <!--Bootstrap-->
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>CRUD-PHP</title>
   </head>
   <body>

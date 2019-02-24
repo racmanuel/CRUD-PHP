@@ -43,8 +43,12 @@
               <td><?php echo $task['description']; ?></td>
               <td><?php echo $task['created_ad']; ?></td>
               <td>
-                <button type="button" class="btn btn-primary">Edit</button>
-                <button type="button" class="btn btn-danger">Delete</button>
+                <a href="edit.php?id=<?php echo $task['id']; ?>" type="button" class="btn btn-primary btn-sm">
+                  <i class="material-icons">edit</i>
+                </a>
+                <a href="delete.php?id=<?php echo $task['id']; ?>" type="button" class="btn btn-danger btn-sm">
+                  <i class="material-icons">delete_forever</i>
+                </a>
               </td>
             </tr>
           <?php } ?>
